@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+body {
+    font-size: 16px;
+    color: #848484;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px 0;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.info {
+    float: left;
+    width: 50%;
+    margin: 12px 0;
+}
+
+.info p {}
+
+.info p i {
+    margin-left: 10px;
+    margin-right: 2px;
+    color: #EE5B18;
+}
+
+.info p span {}
+
+.social {
+    float: left;
+    width: 50%;
+}
+
+.social ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.social ul li {
+    display: inline-block;
+    margin: 5px 3px;
+}
+
+.social ul li a {
+    font-size: 12px;
+    color: #3E3D40;
+    display: block;
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 28px;
+    box-shadow: 0px 2px 2px #dedede;
+    transition: all 0.4s ease;
+}
+
+.social ul a.instagram-bg:hover {
+    background-color: #3f729b;
+    color: #fff;
+}
+
+.social ul a.facebook-bg:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.social ul a.twitter-bg:hover {
+    background-color: #00acee;
+    color: #fff;
+}
+
+
+.social ul a.skype-bg:hover {
+    background-color: #00aff0;
+    color: #fff;
+}
+
+.social ul a.linkedin-in-bg:hover {
+    background-color: #0e76a8;
+    color: #fff;
+}
+
+
+/*Logo Section Start*/
+.logo-section {}
+
+.logo-section img {
+    width: 300px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.logo-section span {
+    border-bottom: 1px solid #f3f3f3;
+    display: block;
+    width: 100%;
+}
+
+/*Logo Section End*/
+
+
+
+/*Comming Soon Section Start*/
+.comming-soon {}
+
+.comming-soon-content {
+    width: 76%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about-content {
+    width: 60%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.comming-soon-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #3E3D40;
+    margin-bottom: 12px;
+}
+
+.comming-soon-content h2 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.comming-soon-content h3 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.about-section span,
+.comming-soon span {
+    border-bottom: 1px solid #f3f3f3;
+    display: block;
+    width: 100%;
+}
+
+/*Comming Soon Section End*/
+
+
+
+/*About Section Start*/
+.about-section {}
+
+.about-section p {
+    line-height: 1.8em;
+    font-weight: 100;
+}
+
+.about-content {
+    width: 76%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+/*About Section End*/
+
+
+/*Subscribe Section Start*/
+.subscribe-section {}
+
+.subscribe-content {
+    width: 40%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.subscribe-content h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #ee5b18;
+}
+
+.subscribe-content form {}
+
+.subscribe-content input[type='text'] {
+    width: 66%;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: left;
+    border: 1px solid #e6e6e6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.subscribe-content input[type='submit'] {
+    float: left;
+    padding: 10px;
+    text-transform: uppercase;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+    background: #fff;
+    transition: all 0.4s ease;
+}
+
+.subscribe-content input[type='submit']:hover {
+    background: #ee5b18;
+    color: #fff;
+}
+
+/*Subscribe Section End*/
+
+
+/*Footer Start*/
+footer {
+    background: #3e3d40;
+}
+
+.footer-content{
+    color: #fff;
+    padding: 60px 0;
+}
+.footer-content h2{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+.footer-content p{
+    color: #ffffff5e;
+    font-size: 12px;
+    line-height: 1.6em;
+    width: 90%;
+}
+
+.about-us {
+    width: 65%;
+    float: left;
+}
+
+.contact-us {
+    width: 35%;
+    float: left;
+}
+
+.contact-us h1{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.contact-us i{}
+.contact-us .social{
+    margin-top: 15px;
+}
+.contact-us .social ul{
+    text-align: left;
+}
+.contact-us .social ul li{
+    margin: 5px 1px;
+}
+.contact-us .social ul li a{
+    box-shadow: none;
+}
+.contact-us .social ul li a:hover{}
+
+/*Footer End*/
+
+
+.copyright-section{
+    padding: 20px 0;
+    background: #2c2b2d;
+}
+.logo-area{
+    width: 10%;
+    float: left;
+}
+.logo-area img{
+    width: 60px;
+    float: left;
+}
+.info-area{}
+.info-area p{
+    color: #ffffff5e;
+    font-size: 12px;
+    line-height: 1.6em;
+    width: 90%;
+    margin-top: 8px;
+}
+
+.get-in-touch{
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+.get-in-touch p{
+    padding: 10px 20px;
+    background: #ffe3a4;
+    display: inline-block;
+    color: #3e3d40;
+    font-size: 16px;
+}
+
+.top-footer{
+    position: relative;
+}
+.get-in-touch span{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -16px;
+    border-top: 20px solid #ff000000;
+    border-left: 0px solid #ff000000;
+    border-right: 16px solid #e6c57a;
+    z-index: -1;
+}
